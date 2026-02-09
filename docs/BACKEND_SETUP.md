@@ -1,6 +1,6 @@
 # Backend Setup Guide
 
-> **📢 Backend Tech Decision**: Join the Tuesday GitHub Discussion to vote between **Python + FastAPI** or **Java + Spring Boot**. See [ORGANIZER_NOTES.md](ORGANIZER_NOTES.md) for discussion details.
+> **📢 Backend Tech Decision**: Join GitHub Discussions to vote between **Python + FastAPI** or **Java + Spring Boot**. See [.github/DISCUSSIONS_TEMPLATE.md](../.github/DISCUSSIONS_TEMPLATE.md) for discussion categories.
 
 ## Prerequisites (Common)
 - **PostgreSQL 12+** - [Download](https://www.postgresql.org/download/) or use Docker

@@ -1,53 +1,50 @@
-# 📖 Documentation Index - Quick Reference
+# 📖 Documentation Quick Reference
 
-Use this index to find exactly what you need quickly.
+**New to this project?** Start with [GETTING_STARTED.md](GETTING_STARTED.md) — it has everything you need!
 
 ---
 
-## 🎯 For Different Roles
+## 📚 All Essential Docs
 
-### 🎯 For Different Roles
+| Doc | Purpose | Read Time |
+|-----|---------|-----------|
+| [GETTING_STARTED.md](GETTING_STARTED.md) | Quick setup in 5 minutes | 5 min |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute code | 10 min |
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | System design & decisions | 15 min |
+| [docs/FRONTEND_SETUP.md](docs/FRONTEND_SETUP.md) | Angular frontend setup | 15 min |
+| [docs/BACKEND_SETUP.md](docs/BACKEND_SETUP.md) | Java/Python backend setup | 15 min |
+| [docs/API.md](docs/API.md) | REST API reference | 20 min |
+| [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | Deploy to AWS | 20 min |
+| [docs/PROJECT_MANAGEMENT.md](docs/PROJECT_MANAGEMENT.md) | Using GitHub effectively | 10 min |
+| [.github/DISCUSSIONS_TEMPLATE.md](.github/DISCUSSIONS_TEMPLATE.md) | How to use GitHub Discussions | 5 min |
+| [docs/GITHUB_GUIDE.md](docs/GITHUB_GUIDE.md) | GitHub workflow guide | 10 min |
 
-### 👨‍💻 Frontend Developers
-1. Start → [GETTING_STARTED.md](GETTING_STARTED.md)
-2. **GitHub Guide** → [docs/GITHUB_GUIDE.md](docs/GITHUB_GUIDE.md) ⭐ Learn how to use issues, PRs, and code reviews
-3. Setup → [docs/FRONTEND_SETUP.md](docs/FRONTEND_SETUP.md)
-4. Contribute → [CONTRIBUTING.md](CONTRIBUTING.md)
-5. Understand API → [docs/API.md](docs/API.md)
-6. Architecture → [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+---
 
-### 🔧 Backend Developers
-1. Start → [GETTING_STARTED.md](GETTING_STARTED.md)
-2. **GitHub Guide** → [docs/GITHUB_GUIDE.md](docs/GITHUB_GUIDE.md) ⭐ Learn how to use issues, PRs, and code reviews
-3. Setup → [docs/BACKEND_SETUP.md](docs/BACKEND_SETUP.md) (Python/Java options)
-4. Contribute → [CONTRIBUTING.md](CONTRIBUTING.md)
-5. API Reference → [docs/API.md](docs/API.md)
-6. Architecture → [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
-7. **Tech Decision:** See [ORGANIZER_NOTES.md](ORGANIZER_NOTES.md) for Tuesday voting
+## 🎯 By Role
 
-### 🚀 DevOps Engineers
-1. Start → [GETTING_STARTED.md](GETTING_STARTED.md)
-2. **GitHub Guide** → [docs/GITHUB_GUIDE.md](docs/GITHUB_GUIDE.md) ⭐ Learn about workflows and CI/CD
-3. Architecture → [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
-4. Deployment → [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) (AWS)
-5. CI/CD Setup → See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) (GitHub Actions or Jenkins - voting on Tuesday)
-6. External Tools → [docs/EXTERNAL_SETUP.md](docs/EXTERNAL_SETUP.md)
-7. **Tech Decision:** See [ORGANIZER_NOTES.md](ORGANIZER_NOTES.md)
+**Frontend Developer:**  
+→ [GETTING_STARTED.md](GETTING_STARTED.md) → [docs/FRONTEND_SETUP.md](docs/FRONTEND_SETUP.md) → [CONTRIBUTING.md](CONTRIBUTING.md)
 
-### 📊 Project Managers
-1. Overview → [README.md](README.md)
-2. Management → [docs/PROJECT_MANAGEMENT.md](docs/PROJECT_MANAGEMENT.md)
-3. Checklist → [docs/HACKATHON_CHECKLIST.md](docs/HACKATHON_CHECKLIST.md)
-4. External Setup → [docs/EXTERNAL_SETUP.md](docs/EXTERNAL_SETUP.md)
-5. Organizer Summary → [SETUP_SUMMARY.md](SETUP_SUMMARY.md)
+**Backend Developer:**  
+→ [GETTING_STARTED.md](GETTING_STARTED.md) → [docs/BACKEND_SETUP.md](docs/BACKEND_SETUP.md) → [docs/API.md](docs/API.md) → [CONTRIBUTING.md](CONTRIBUTING.md)
 
-### 🎯 For Organizers
-1. **IMPORTANT:** Read [ORGANIZER_NOTES.md](ORGANIZER_NOTES.md) for tech stack voting plan
-2. Setup Summary → [SETUP_SUMMARY.md](SETUP_SUMMARY.md)
-3. Quick Start → [QUICK_START_FOR_ORGANIZERS.md](QUICK_START_FOR_ORGANIZERS.md)
-4. External Setup → [docs/EXTERNAL_SETUP.md](docs/EXTERNAL_SETUP.md)
+**DevOps Engineer:**  
+→ [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) → [docs/EXTERNAL_SETUP.md](docs/EXTERNAL_SETUP.md)
 
-### 🎨 UI/UX & Design
+**Project Manager:**  
+→ [docs/PROJECT_MANAGEMENT.md](docs/PROJECT_MANAGEMENT.md) → [GitHub Issues](../../issues) → [GitHub Projects](../../projects)
+
+---
+
+## 💡 Pro Tips
+
+- **All docs can be improved** — if something is unclear, fix it!
+- **Use GitHub Discussions** for architecture questions (see [.github/DISCUSSIONS_TEMPLATE.md](.github/DISCUSSIONS_TEMPLATE.md))
+- **Check GitHub Issues** before asking questions (someone may have answered it already)
+- **Read CONTRIBUTING.md** before your first PR
+
+---
 1. Start → [GETTING_STARTED.md](GETTING_STARTED.md)
 2. Contribution → [CONTRIBUTING.md](CONTRIBUTING.md)
 3. Architecture → [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)

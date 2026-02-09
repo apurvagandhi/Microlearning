@@ -321,7 +321,7 @@ jobs:
 
 ### Option B: Jenkins
 
-See [ORGANIZER_NOTES.md](ORGANIZER_NOTES.md) for Jenkins setup on EC2.
+See local docs for Jenkins setup on EC2 (available in organizer materials).
 
 ---
 
