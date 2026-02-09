@@ -1,112 +1,64 @@
-# 🎓 NC State Micro-Learning App Hackathon - Setup Complete!
+# Getting Started - Micro-Learning App
 
-Welcome to the Micro-Learning App! This is your complete guide to a successful 10-day open-source hackathon.
+Welcome! This guide gets you up and running in 5 minutes.
 
----
-
-## 📖 Quick Navigation
-
-### For Students
-1. **First Time Setup**: Read [docs/FRONTEND_SETUP.md](docs/FRONTEND_SETUP.md) or [docs/BACKEND_SETUP.md](docs/BACKEND_SETUP.md)
-2. **How to Contribute**: Read [CONTRIBUTING.md](CONTRIBUTING.md)
-3. **Understanding GitHub**: Read [docs/GITHUB_GUIDE.md](docs/GITHUB_GUIDE.md) ⭐ **Start here if new to GitHub!**
-4. **Find Work to Do**: Check [GitHub Issues](../../issues) - Look for `good first issue`
-5. **Understand the Project**: Check [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
-
-### For Project Managers
-1. **Project Management**: Read [docs/PROJECT_MANAGEMENT.md](docs/PROJECT_MANAGEMENT.md)
-2. **Daily Checklist**: Use [docs/HACKATHON_CHECKLIST.md](docs/HACKATHON_CHECKLIST.md)
-3. **External Setup**: [docs/EXTERNAL_SETUP.md](docs/EXTERNAL_SETUP.md)
-4. **Track Progress**: Use [GitHub Projects Board](../../projects)
-
-### For Technical Leads
-1. **API Design**: [docs/API.md](docs/API.md)
-2. **Architecture**: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
-3. **Deployment**: [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)
-4. **Code Standards**: [CONTRIBUTING.md](CONTRIBUTING.md#code-standards)
+> **Note:** These docs are a starting point. As you work on the project, **please update them** to reflect what you learn and how the project evolves. Good documentation is a shared responsibility!
 
 ---
 
-## 🚀 Getting Started in 5 Minutes
+## 🚀 Setup in 5 Minutes
 
-### 1. Clone the Repository
+### 1. Clone the repo
 ```bash
 git clone https://github.com/YOUR-ORG/micro-learning-app.git
 cd micro-learning-app
 ```
 
-### 2. Pick Your Track
+### 2. Setup your track
 
-#### Frontend Track (Angular)
+**Frontend (Angular):**
 ```bash
 cd frontend
 npm install
 ng serve
-# Visit http://localhost:4200
+# Open http://localhost:4200
 ```
 
-#### Backend Track (Python/Java - TBD)
+**Backend (Java or Python - TBD):**
 ```bash
 cd backend
 
-# If Python + FastAPI is chosen:
+# Python + FastAPI:
 python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload
-# Visit http://localhost:3000
 
-# If Java + Spring Boot is chosen:
+# OR Java + Spring Boot:
 mvn spring-boot:run
-# Visit http://localhost:3000/api/v1
 ```
 
-> **Note:** Backend framework to be decided Tuesday. See [ORGANIZER_NOTES.md](ORGANIZER_NOTES.md) for voting details.
-
-### 3. Find an Issue
-- Go to [GitHub Issues](../../issues)
-- Filter by `good first issue`
-- Comment: "I'd like to work on this"
-- Assign yourself
-
-### 4. Create a Branch
-```bash
-git checkout -b feature/issue-123-short-name
-```
-
-### 5. Make Changes & Push
-```bash
-git add .
-git commit -m "feat: short description
-
-- More details
-- Closes #123"
-git push origin feature/issue-123-short-name
-```
-
-### 6. Create Pull Request
-- Go to repository
-- Create PR
-- Add description and link issue
-- Wait for review
-- Merge when approved!
+### 3. Find work & contribute
+- Go to [GitHub Issues](../../issues) - look for `good first issue`
+- Create a branch: `git checkout -b feature/issue-123-name`
+- Make your changes, commit, push
+- Create a pull request
+- Celebrate when merged! 🎉
 
 ---
 
-## 📚 Essential Documentation
+## 📚 Docs Map
 
-| Document | Purpose | For Whom |
-|----------|---------|----------|
-| [README.md](README.md) | Project overview | Everyone |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute | All developers |
-| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | System design & decisions | Tech leads, senior devs |
-| [docs/FRONTEND_SETUP.md](docs/FRONTEND_SETUP.md) | Frontend dev environment | Frontend developers |
-| [docs/BACKEND_SETUP.md](docs/BACKEND_SETUP.md) | Backend dev environment | Backend developers |
-| [docs/API.md](docs/API.md) | Complete API reference | Full-stack, backend devs |
-| [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | How to deploy to production | DevOps leads |
-| [docs/PROJECT_MANAGEMENT.md](docs/PROJECT_MANAGEMENT.md) | How to use GitHub effectively | Project managers, leads |
-| [docs/EXTERNAL_SETUP.md](docs/EXTERNAL_SETUP.md) | External tools & accounts | Organizers |
-| [docs/HACKATHON_CHECKLIST.md](docs/HACKATHON_CHECKLIST.md) | Day-by-day checklist | Project managers |
+| Need | Read This |
+|------|-----------|
+| How to contribute | [CONTRIBUTING.md](CONTRIBUTING.md) |
+| System architecture | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
+| Frontend setup help | [docs/FRONTEND_SETUP.md](docs/FRONTEND_SETUP.md) |
+| Backend setup help | [docs/BACKEND_SETUP.md](docs/BACKEND_SETUP.md) |
+| Project management | [docs/PROJECT_MANAGEMENT.md](docs/PROJECT_MANAGEMENT.md) |
+| Deployment | [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) |
+| API reference | [docs/API.md](docs/API.md) |
+| Organizer setup | [docs/EXTERNAL_SETUP.md](docs/EXTERNAL_SETUP.md) |
 
 ---
 

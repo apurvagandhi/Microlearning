@@ -49,28 +49,15 @@ This guide covers all the setup you need to do OUTSIDE this repository to ensure
 
 ## 2. 📧 Communication Setup
 
-### Create Slack/Discord Workspace (Optional but Highly Recommended)
+### Google Chat Setup (Recommended for Team Chat)
 
-#### Slack
-1. Go to https://slack.com/create
-2. Create workspace (e.g., "NC State Micro Learning")
-3. Invite all students
-4. Create channels:
-   - `#general` - Announcements
-   - `#help` - Questions
-   - `#frontend` - Frontend team
-   - `#backend` - Backend team
-   - `#devops` - DevOps team
-   - `#random` - Off-topic
-   - `#standup` - Daily standups
-5. Install GitHub app: `/github subscribe`
+1. Go to https://chat.google.com
+2. Create a new space (e.g., "Micro-Learning App Dev")
+3. Invite all students and instructors
+4. Pin important links and documents
+5. Use for quick questions and casual chat
 
-#### Discord
-1. Go to https://discord.com/servers/create
-2. Create server
-3. Invite all students
-4. Create similar channels
-5. Add GitHub bot integration
+**Important:** Use [GitHub Discussions](../../discussions) for all project decisions, standups, and announcements (more searchable and documented for future reference). See [.github/DISCUSSIONS_TEMPLATE.md](.github/DISCUSSIONS_TEMPLATE.md) for discussion setup.
 
 ### Email Distribution List (Optional)
 
@@ -84,19 +71,27 @@ If your institution supports it:
 
 ### Deployment Platforms
 
-#### Vercel (Frontend Hosting)
-1. Go to https://vercel.com/signup
-2. Sign up with GitHub
-3. Connect GitHub account
-4. Create team (optional)
-5. Note: No payment needed for free tier
+### AWS Setup (Frontend & Backend Hosting)
 
-#### Railway (Backend Hosting)
-1. Go to https://railway.app/login
-2. Sign up with GitHub
-3. Create account
-4. Get $5 free credit on signup
-5. Add payment method (optional)
+**Frontend (S3 + CloudFront):**
+1. Go to https://aws.amazon.com
+2. Create S3 bucket for frontend assets
+3. Configure static website hosting
+4. Set up CloudFront CDN in front of the bucket
+5. See [docs/DEPLOYMENT.md](../DEPLOYMENT.md) for detailed steps
+
+**Backend (ECS/ECR or EC2):**
+1. Choose deployment option: ECS with Docker, EC2 instances, or Elastic Beanstalk
+2. Create Docker image of backend application
+3. Push to ECR (Elastic Container Registry)
+4. Deploy via ECS service or EC2 instances
+5. See [docs/DEPLOYMENT.md](../DEPLOYMENT.md) for step-by-step guide
+
+**Database (RDS PostgreSQL):**
+1. Create RDS PostgreSQL instance
+2. Configure security groups to allow backend access
+3. Store connection details securely (use Secrets Manager or Parameter Store)
+4. Initialize database schema from migration scripts
 
 **OR**
 

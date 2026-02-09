@@ -119,32 +119,16 @@ Create these categories:
 - Best practices
 - Code review discussions
 
-### Daily Standup Template
+### Daily Standup
 
-Create a new discussion each day:
+Post daily standup as a GitHub Discussion (see [.github/DISCUSSIONS_TEMPLATE.md](../.github/DISCUSSIONS_TEMPLATE.md) for template).
 
-```markdown
-# Day 3 Standup - February 11
-
-## What we accomplished yesterday
-- [x] User auth API completed
-- [x] Frontend login page designed
-
-## What we're working on today
-- [ ] Implement lesson creation API
-- [ ] Build lesson editor UI
-- [ ] Write database migration
-
-## Blockers
-- PostgreSQL connection issues (being resolved)
-
-## Celebrating
-🎉 First PR merged! Thanks @student-name
-
-## Open questions
-- Should we use pagination or infinite scroll?
-- Best approach for media uploads?
-```
+Use this format:
+- ✅ What we completed yesterday
+- 🔧 What we're working on today  
+- 🚧 Blockers
+- 🎉 Celebrating wins
+- ❓ Open questions
 
 ---
 
@@ -238,36 +222,22 @@ When reviewing PRs:
 
 ---
 
-## 6. Communication Strategy
+## 6. Communication
 
-### Real-time Chat (Slack/Discord - Optional but Recommended)
+Use **GitHub Discussions** for project-related communication and **Google Chat** for quick team chat.
 
-For quick questions and coordination. BUT:
-- Final decisions should be in GitHub Discussions
-- Refer back to GitHub for context
-- Archive important messages in Discussions
+**GitHub Discussions:**
+- Daily standups
+- Architecture decisions  
+- Questions (searchable for future reference)
+- Announcements
 
-### Channels
+See [.github/DISCUSSIONS_TEMPLATE.md](../.github/DISCUSSIONS_TEMPLATE.md) for templates and discussion categories.
 
-```
-#general           - Announcements, fun stuff
-#help              - Questions, blockers
-#frontend          - Frontend team
-#backend           - Backend team
-#devops            - Deployment, CI/CD
-#random            - Off-topic chat
-```
-
-### Daily Standup Schedule
-
-- **Time**: 9:00 AM (or start of day)
-- **Format**: Either:
-  - 10-minute verbal standup in video call
-  - Written standup in GitHub Discussions
-- **Agenda**:
-  - What did you do?
-  - What are you doing today?
-  - Any blockers?
+**Google Chat:**
+- Quick questions
+- Real-time coordination
+- Off-topic chat
 
 ---
 
