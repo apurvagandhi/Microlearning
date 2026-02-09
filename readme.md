@@ -1,6 +1,6 @@
 # Micro-Learning App 🎓
 
-> A collaborative open-source micro-learning platform built by 14 CS students from NC State University during a month-long hackathon with 10 dedicated hands-on days.
+> A collaborative open-source micro-learning platform built by 14 CS students from NC State University during a month-long hackathon in partnership with the NC State InSPIRE program.
 
 ## 📌 Project Overview
 
