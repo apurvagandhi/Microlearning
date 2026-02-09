@@ -1,0 +1,6 @@
+name: Issue Templates Config
+description: Configuration for GitHub issue templates
+
+title: "[TYPE] Brief description"
+labels: ["triage"]
+assignees: []
